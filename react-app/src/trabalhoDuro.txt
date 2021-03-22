@@ -1,0 +1,32 @@
+Estrutura
+----------------
+
+*src
++----* action
+|   |
+|   |-- api.js (manuseia todas as HTTP request)
+|   |-- ToDo.js (action Redux & action creators)
+|   |-- store.js (configurar memoria redux)
+|
++----* components
+|   |
+|   |-- ToDoForm.js (operações form)
+|   |-- ToDos.js (lista de records)
+|   |-- useForm.js (maniseia operações form comuns)
+|
+|---* reducers
+|   |
+|   |-- ToDo.js
+|   |-- index.js
+|
+|-- App.js
+|-- index.js
+|-- index.css
+
+redux. react-redux, reduz-thunk
+
+action - create, update, delete, etc, data
+reducers
+store
+
+cmpnt -> dispatch(action)-> reducer -> cmpnt
